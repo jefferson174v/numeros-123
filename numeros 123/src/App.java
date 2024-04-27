@@ -15,7 +15,7 @@ public class App {
         int num1, num2, num3;
         // se usa el do while para solicitar los numeros
         do {
-            // se declaran las varaiables a dijitar, claramente enteros
+            // se llama al metodo numero que es el encargado de guardar las variables ( numeros )  en las sig variables que se  declararon como enteros antes
             num1 = numero(sc);
             num2 = numero(sc);
             num3 = numero(sc);
