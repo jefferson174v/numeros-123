@@ -101,8 +101,8 @@ public class App {
         if (num2 < menor) { //verifica si el valor de la variable num2 es menor que el valor actual almacenado en la variable menor
             menor = num2; //  para uego si lo es pasa a ser el valor de num2
         }
-        if (num3 < menor) {
-            menor = num3;
+        if (num3 < menor) {//ahora se verifica completo comparando si menor es meayor que num 3
+            menor = num3; //si es asi pasa a ser menor el valor de num3
         }
         int mayor2 = num1 + num2 + num3 - mayor1 - menor; // este paso es importante para encontrar el num de enmedio
         // se hace intuitivamente sabiendo que se sabe el mayor y el menor, por lo que
